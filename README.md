@@ -33,10 +33,10 @@ Si se incluye el parámetro -o --off_line se debe incluir el listado anterior pe
 5. Filtra por usuario
 Finalmente incluye que si el script se invoca así:
 
-open_files -u jmtorres jttoledo dabreu
+open_files -u usuario usuario2 usuario3
 
 Sólo se muestre la información de lsof para aquellos archivos abiertos por los usuario especificados en la opción -u. Mientras que si se invoca así:
 
-open_files -u jmtorres jttoledo -f '.*sh'
+open_files -u usuario usuario2 -f '.*sh'
 
 Se muestre la información para aquellos archivos terminados en 'sh' que además hayan sido abiertos por el usuario especificado.
