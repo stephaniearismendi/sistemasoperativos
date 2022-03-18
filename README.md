@@ -1,3 +1,3 @@
 # sistemas operativos ULL: practica final de bash
-* 1. Funcionamiento básico y listado de usuarios con archivos abiertos. *
+* Funcionamiento básico y listado de usuarios con archivos abiertos. *
 Usando lo aprendido hasta el momento en clase, desarrolla el script 'open_files' que, si no se especifica opción, muestre una lista ordenada y sin duplicados de todos los usuarios conectados en el sistema y la cuenta del número de ficheros abiertos que tiene actualmente cada usuario.  En este listado se debe incluir los usuarios que se incluyen en el resultado del comando who, y no usuarios como root o demonios. Tambien se debe incluir el UID del usuario, y el PID de su proceso más antiguo.
